@@ -20,6 +20,13 @@ further enhance its growth. Our extensive experiments on the developed benchmark
 verify that our DFLIP-3K database is capable of serving as a standardized resource 
 for evaluating and comparing linguistic-based deepfake detection, identification, and prompt prediction techniques.
 
+## Visualization
+The project page displays a limited selection of DFLIP-3K samples, comprising images and prompts.
+https://dflip3k.github.io/DFLIP-3K/
+
+
+
+
 ## Usage
 Metadata is stored in this repository in JSON format:
 https://github.com/dflip3k/storage
@@ -27,21 +34,3 @@ https://github.com/dflip3k/storage
 The repository only contains the tools used for processing the data. 
 
 
-
-
-
-
-
-<table style="width:100%">
-<thead>
-<tr>
-<th style="width:70%" align="center" >Image</th>
-<th style="width:30%" align="center">Parameters</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="word-break: break-all;" align="right"><img src="https://liblibai-online.liblibai.com/web/6483319f361aa.png?image_process=format,webp&x-oss-process=image/resize,w_600,m_lfit/format,webp"></td>
-<td style="word-break: break-all;" align="right"><b>Prompt:</b> asdfasdfasdfasdfasdfasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdfasdfasdfasdfasd </td>
-</tbody>
-</table>
