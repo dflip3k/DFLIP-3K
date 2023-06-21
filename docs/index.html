@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//pyecharts.org/static/vue.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <style type="text/css">
+    .markdown-section {
+        max-width: 95%;
+    }
+  </style>
+  <div id="app">Loading ...</div>
+  <script>
+    window.$docsify = {
+      name: 'DFLIP-3K',
+      repo: 'https://github.com/dflip3k/DFLIP-3K',
+      coverpage: true,
+      autoHeader: true,
+      loadSidebar: true,
+      alias: {
+      '/.*/_sidebar.md': '/_sidebar.md'
+      },
+      loadNavbar: true,
+      maxLevel: 2,
+      subMaxLevel: 4,
+      auto2top: true,
+      mergeNavbar: true,
+      homepage: 'README.md',
+      ext: '.md',
+      search: {
+        maxAge: 86400000, 
+        paths: 'auto',
+        placeholder: {
+          '/': 'Search',
+          '/zh-cn/': 'Search',
+          '/en-us/': 'Type to search'
+        },
+        noData: {
+          '/': 'Not Found',
+          '/zh-cn/': 'Not Found',
+          '/en-us/': 'No Results'
+        },
+        depth: 4,
+      },
+      plugins: [
+        function (hook) {
+          var footer = [
+            '<hr/>',
+            '<footer>',
+            '<span><a href="https://github.com/dflip3k/DFLIP-3K"> DFLIP-3K </a> &copy;2023 - 2023.</span>',
+            '<span>Powered By <a href="https://github.com/QingWei-Li/docsify" target="_blank">docsify</a>.</span>',
+            '</footer>'
+          ].join('');
+
+          hook.afterEach(function (html) {
+            return html + footer
+          })
+        }
+      ],
+      copyCode: {
+        buttonText: {
+          '/': 'Click to Copy'
+        },
+        errorText: {
+          '/': 'Error'
+        },
+        successText: {
+          '/': 'Copy'
+        }
+      }
+    }
+  </script>
+  <script src="//pyecharts.org/static/docsify-copy-code.min.js"></script>
+  <script src="//pyecharts.org/static/search.js"></script>
+  <script src="//pyecharts.org/static/docsify.min.js"></script>
+  <script src="//pyecharts.org/static/prism-python.min.js"></script>
+  <script src="//pyecharts.org/static/zoom-image.js"></script>
+</body>
+</html>

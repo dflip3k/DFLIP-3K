@@ -29,3 +29,19 @@ The repository only contains the tools used for processing the data.
 
 
 
+
+
+
+<table style="width:100%">
+<thead>
+<tr>
+<th style="width:70%" align="center" >Image</th>
+<th style="width:30%" align="center">Parameters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="word-break: break-all;" align="right"><img src="https://liblibai-online.liblibai.com/web/6483319f361aa.png?image_process=format,webp&x-oss-process=image/resize,w_600,m_lfit/format,webp"></td>
+<td style="word-break: break-all;" align="right"><b>Prompt:</b> asdfasdfasdfasdfasdfasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdfasdfasdfasdfasd </td>
+</tbody>
+</table>
