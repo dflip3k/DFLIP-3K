@@ -120,8 +120,12 @@ git clone https://github.com/dflip3k/Otter
 
 cd Otter 
 
-
-
+accelerate launch caption_ds.py \
+  --pretrained_model_name_or_path=luodian/openflamingo-9b-hf \
+  --dataset_resampled --multi_instruct_path=[Path to benchmark split JSON file] \
+  --run_name=aiart --batch_size=1 --num_epochs=6 \
+  --cross_attn_every_n_layers=4 --lr_scheduler=cosine --learning_rate=1e-5 \
+  --data_root=[Path to dataset]
 
 ```
 
