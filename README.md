@@ -81,9 +81,15 @@ python downloader.py --meta_file [Path to JSON file].json --save_dir [where to s
 ```
 datasets
 ├── downloaded
-│   ├── *.jpg
-│   ├── *.png
-│   └── *.wepg
+│   ├── mj
+│   │  ├──*.jpg
+│   │  └──*.png
+│   ├── sd
+│   │  ├──*.jpg
+│   │  └──*.png
+│   ├── pd
+│   ├── dalle
+│   └── ...
 ├── pd.json
 └── ...
 ```
@@ -93,7 +99,8 @@ datasets
 
 <a href="#top">[Back to top]</a>
 
-Please wait a moment.
+After downloading all data, we strongly recommend that you convert all images to the same format (such as PNG in our dataset). This will facilitate reducing errors caused by different image formats during the loading process. However, this is optional.
+
 
 ### 3. Pretrained Weights
 

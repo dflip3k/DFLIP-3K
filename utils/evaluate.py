@@ -361,7 +361,6 @@ if __name__ == '__main__':
     a = obj.simple_eval()
 
 
-    import pdb;pdb.set_trace()
 
 
 deepfake_eval('deepfake_test.txt', 'our_dfnew.txt')
