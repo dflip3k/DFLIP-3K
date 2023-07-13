@@ -113,7 +113,23 @@ Please wait a moment.
 
 <a href="#top">[Back to top]</a>
 
-Please wait a moment.
+We give Otter based implementation for deepfake detection, identification and prompt prediction tasks.
+
+```
+git clone https://github.com/dflip3k/Otter
+
+cd Otter 
+
+
+
+
+```
+
+
+
+
+
+
 
 
 
