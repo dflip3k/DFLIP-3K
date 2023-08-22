@@ -1,0 +1,4 @@
+torch
+clip-anytorch
+pillow
+numpy

@@ -115,6 +115,8 @@ Please wait a moment.
 
 We give Otter based implementation for deepfake detection, identification and prompt prediction tasks.
 
+We use openflamingo-9b for training.
+
 ```
 git clone https://github.com/dflip3k/Otter
 
