@@ -51,12 +51,12 @@ python3 demo.py \
 
 
 
+# put predict.py under EasyFace 
 
+run
 
-
-
-
-
+`python predict.py --source parti.csv --model FairFace --det_model RetinaFace
+`
 
 
 

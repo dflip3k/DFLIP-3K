@@ -155,6 +155,27 @@ def draw_matrix():
     plt.savefig('myplot.png')
 
 
+
+#
+# pattern = r'\[([^\]]*)\]'
+# with open('all_results.pkl', 'rb') as file:
+#     serialized = file.read()
+#
+# deserialized = pickle.loads(serialized)
+# all_dis = []
+# for value in deserialized:
+#     if value is not None:
+#         all_dis.append(value[1])
+#
+#
+# bins = np.arange(0, 1.0, 0.05)
+# hist, edges = np.histogram(all_dis, bins)
+#
+# <45%, 45%~50%, 50%~55%, 55%~60%, 60%~65%, 65%~70%, 70%~75%, 75%~80%, 80%~85%, 85%~90% , 90%~95%, 95%~100%
+# 532, 11, 233, 28, 3, 66, 1550, 1731, 2207, 2869, 8892, 12683
+#
+
+
 if __name__ == "__main__":
     main()
     draw_matrix()
